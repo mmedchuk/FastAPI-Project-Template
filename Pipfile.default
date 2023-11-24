@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Fastapi = {version = 'Version', extras = ['all']}
+SQLAlchemy  = 'Version'
+Alembic = 'Version'
+Asyncpg = 'Version'
+Pydantic-settings = 'Version'
+
+
+[dev-packages]
+black = "Version"
+flake8 = "Version"
+isort = "Version"
+pre-commit = "Version"
+mypy = "Version"
+
+
+[requires]
+python_version = "Version"
